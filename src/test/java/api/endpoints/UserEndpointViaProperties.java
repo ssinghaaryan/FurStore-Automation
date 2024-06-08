@@ -1,0 +1,88 @@
+package api.endpoints;
+
+import static io.restassured.RestAssured.given;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.util.Properties;
+
+import api.payload.UserPayload;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+
+public class UserEndpointViaProperties {
+	
+	public static Properties getUrl() {
+		
+		Properties configProp = new Properties();
+		File configPropFile = new File(System.getProperty("user.dir") + "/src/test/resources/routes.properties");
+		
+		try {
+			FileInputStream fis = new FileInputStream(configPropFile);
+			configProp.load(fis);
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
+		return configProp;
+	}
+	
+	public static Response createUser(UserPayload payload) { // Creates all these payload methods public and static so can be accessed by any class.
+		
+		Response res = given()
+			.contentType(ContentType.JSON)
+			.accept(ContentType.JSON)
+			.body(payload)
+		
+		.when()
+			.post(getUrl().getProperty("postUrl"));
+//			.post(Routes.postUrl);
+		
+		return res;
+		
+	}
+	
+	public static Response readUser(String username) {
+
+		Response res = given()
+			.pathParam("username", username)
+			.accept(ContentType.JSON)
+		
+		.when()
+			.get(getUrl().getProperty("getUrl"));
+//			.get(Routes.getUrl);
+		
+		return res;
+		
+	}
+	
+	public static Response updateUser(UserPayload payload, String username) {
+
+		Response res = given()
+				.contentType(ContentType.JSON)
+				.accept(ContentType.JSON)
+				.body(payload)
+				.pathParam("username", username)
+		
+		.when()
+			.put(getUrl().getProperty("updateUrl"));
+//			.put(Routes.updateUrl);
+		
+		return res;
+		
+	}
+	
+	public static Response deleteUser(String username) {
+
+		Response res = given()
+			.accept(ContentType.JSON)
+			.pathParam("username", username)
+		
+		.when()
+			.delete(getUrl().getProperty("deleteUrl"));
+//			.delete(Routes.deleteUrl);
+		
+		return res;
+		
+	}
+
+}
