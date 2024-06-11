@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-07T22:01:31 IST" name="Suite" finished-at="2024-06-07T22:01:42 IST" duration-ms="10787">
+  <suite started-at="2024-06-10T23:56:18 IST" name="Suite" finished-at="2024-06-10T23:56:26 IST" duration-ms="8758">
     <groups>
     </groups>
-    <test started-at="2024-06-07T22:01:31 IST" name="Test" finished-at="2024-06-07T22:01:42 IST" duration-ms="10787">
-      <class name="api.test.UserTestsViaProperties">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTestsViaProperties@2e8c1c9b]" started-at="2024-06-07T22:01:31 IST" name="setup" finished-at="2024-06-07T22:01:31 IST" duration-ms="213" status="PASS">
+    <test started-at="2024-06-10T23:56:18 IST" name="Test" finished-at="2024-06-10T23:56:26 IST" duration-ms="8758">
+      <class name="api.test.StoreTestsViaProperties">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.StoreTestsViaProperties@2e8c1c9b]" started-at="2024-06-10T23:56:18 IST" name="setup" finished-at="2024-06-10T23:56:18 IST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testPutUser()[pri:1, instance:api.test.UserTestsViaProperties@2e8c1c9b]" started-at="2024-06-07T22:01:31 IST" name="testPutUser" finished-at="2024-06-07T22:01:36 IST" duration-ms="4513" status="PASS">
+        <test-method signature="getStoreInventory()[pri:1, instance:api.test.StoreTestsViaProperties@2e8c1c9b]" started-at="2024-06-10T23:56:18 IST" name="getStoreInventory" finished-at="2024-06-10T23:56:22 IST" duration-ms="3369" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPutUser -->
-        <test-method signature="testGetUser()[pri:2, instance:api.test.UserTestsViaProperties@2e8c1c9b]" started-at="2024-06-07T22:01:36 IST" name="testGetUser" finished-at="2024-06-07T22:01:37 IST" duration-ms="1438" status="PASS">
+        </test-method> <!-- getStoreInventory -->
+        <test-method signature="placeOrder()[pri:2, instance:api.test.StoreTestsViaProperties@2e8c1c9b]" started-at="2024-06-10T23:56:22 IST" name="placeOrder" finished-at="2024-06-10T23:56:24 IST" duration-ms="1962" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetUser -->
-        <test-method signature="testUpdateUser()[pri:3, instance:api.test.UserTestsViaProperties@2e8c1c9b]" started-at="2024-06-07T22:01:37 IST" name="testUpdateUser" finished-at="2024-06-07T22:01:40 IST" duration-ms="2862" status="PASS">
+        </test-method> <!-- placeOrder -->
+        <test-method signature="getOrderById()[pri:3, instance:api.test.StoreTestsViaProperties@2e8c1c9b]" started-at="2024-06-10T23:56:24 IST" name="getOrderById" finished-at="2024-06-10T23:56:25 IST" duration-ms="1552" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUpdateUser -->
-        <test-method signature="testDeleteUser()[pri:4, instance:api.test.UserTestsViaProperties@2e8c1c9b]" started-at="2024-06-07T22:01:40 IST" name="testDeleteUser" finished-at="2024-06-07T22:01:42 IST" duration-ms="1368" status="PASS">
+        </test-method> <!-- getOrderById -->
+        <test-method signature="deleteOrderById()[pri:4, instance:api.test.StoreTestsViaProperties@2e8c1c9b]" started-at="2024-06-10T23:56:25 IST" name="deleteOrderById" finished-at="2024-06-10T23:56:26 IST" duration-ms="1415" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteUser -->
-      </class> <!-- api.test.UserTestsViaProperties -->
+        </test-method> <!-- deleteOrderById -->
+      </class> <!-- api.test.StoreTestsViaProperties -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

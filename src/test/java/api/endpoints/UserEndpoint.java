@@ -6,7 +6,7 @@ import api.payload.UserPayload;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class UserEndpoint2 {
+public class UserEndpoint {
 	
 	public static Response createUser(UserPayload payload) { // Creates all these payload methods public and static so can be accessed by any class.
 		

@@ -9,9 +9,15 @@
 	
   <test thread-count="5" name="Test">
     <classes>
+	
+	<!-- User Model -->
      <!-- <class name="api.test.DataDrivenTests"/> -->
      <!-- <class name="api.test.UserTests"/> --> 
-     <class name="api.test.UserTestsViaProperties"/>
+    <!-- <class name="api.test.UserTestsViaProperties"/> --> 
+    
+    <!-- Store Model -->
+    <class name="api.test.StoreTestsViaProperties"/>
+    
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

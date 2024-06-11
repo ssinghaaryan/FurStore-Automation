@@ -26,7 +26,7 @@ public class UserEndpointViaProperties {
 		return configProp;
 	}
 	
-	public static Response createUser(UserPayload payload) { // Creates all these payload methods public and static so can be accessed by any class.
+	public static Response createUser(UserPayload payload) { // Creating all these payload methods public and static so can be accessed by any class.
 		
 		Response res = given()
 			.contentType(ContentType.JSON)

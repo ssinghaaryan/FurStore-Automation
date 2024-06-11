@@ -13,3 +13,6 @@ public class Routes {
 	public static String deleteUrl = baseUrl + "/user/{username}";
 
 }
+
+
+// These Url's and class are not being used anymore anywhere in the code, as replaced by getting end pints from the routes.properties file.

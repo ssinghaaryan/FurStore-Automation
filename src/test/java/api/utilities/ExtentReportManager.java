@@ -35,7 +35,7 @@ public class ExtentReportManager implements ITestListener {
 		
 		extent = new ExtentReports();
 		extent.attachReporter(Reporter);
-		extent.setSystemInfo("Application", "PetStore User API");
+		extent.setSystemInfo("Application", "FurStore User API");
 		extent.setSystemInfo("OS", System.getProperty("os.name"));
 		extent.setSystemInfo("Username", System.getProperty("user.name"));
 		extent.setSystemInfo("User", "Aryan");

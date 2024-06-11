@@ -1,11 +1,9 @@
 package api.test;
 
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import api.endpoints.UserEndpoint2;
+import api.endpoints.UserEndpoint;
 import api.payload.UserPayload;
 import api.utilities.DataProviders;
 import io.restassured.response.Response;
@@ -27,18 +25,18 @@ public class DataDrivenTests {
 		payload.setPassword(pwd);
 		payload.setPhone(ph);
 		
-		Response res = UserEndpoint2.createUser(payload);
+		Response res = UserEndpoint.createUser(payload);
 		
-		AssertJUnit.assertEquals(res.statusCode(), 200);
+		Assert.assertEquals(res.statusCode(), 200);
 		
 	}
 
 	@Test(priority = 2, dataProvider = "Usernames", dataProviderClass = DataProviders.class)
 	public void testDeleteUserByUsername(String username) {
 		
-		Response res = UserEndpoint2.deleteUser(username);
+		Response res = UserEndpoint.deleteUser(username);
 	
-		AssertJUnit.assertEquals(res.statusCode(), 200);
+		Assert.assertEquals(res.statusCode(), 200);
 		
 	}
 	

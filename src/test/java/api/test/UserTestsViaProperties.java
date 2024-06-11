@@ -1,6 +1,6 @@
 package api.test;
 
-import org.testng.AssertJUnit;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -37,7 +37,7 @@ public class UserTestsViaProperties {
 		Response res = UserEndpointViaProperties.createUser(payload);
 		res.then().log().all();
 		
-		AssertJUnit.assertEquals(res.statusCode(), 200);
+		Assert.assertEquals(res.statusCode(), 200);
 		
 	}
 	
@@ -47,7 +47,7 @@ public class UserTestsViaProperties {
 		Response res = UserEndpointViaProperties.readUser(this.payload.getUsername());
 		res.then().log().all();
 		
-		AssertJUnit.assertEquals(res.getStatusCode(), 200);
+		Assert.assertEquals(res.getStatusCode(), 200);
 		
 	}
 	
@@ -62,12 +62,12 @@ public class UserTestsViaProperties {
 		Response res = UserEndpointViaProperties.updateUser(payload, this.payload.getUsername());
 		res.then().log().body();
 		
-		AssertJUnit.assertEquals(res.statusCode(), 200);
+		Assert.assertEquals(res.statusCode(), 200);
 		
 		// Validating updated details
 		Response resPostUpdation = UserEndpointViaProperties.readUser(this.payload.getUsername());
 		
-		AssertJUnit.assertEquals(resPostUpdation.statusCode(), 200);
+		Assert.assertEquals(resPostUpdation.statusCode(), 200);
 		
 	}
 	
@@ -75,7 +75,8 @@ public class UserTestsViaProperties {
 	void testDeleteUser() {
 		
 		Response res = UserEndpointViaProperties.deleteUser(this.payload.getUsername());
-		AssertJUnit.assertEquals(res.statusCode(), 200);
+		
+		Assert.assertEquals(res.statusCode(), 200);
 		
 	}
 	
