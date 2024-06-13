@@ -79,19 +79,4 @@ public class UserTestsViaProperties {
 		Assert.assertEquals(res.statusCode(), 200);
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }

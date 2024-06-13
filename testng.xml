@@ -16,7 +16,10 @@
     <!-- <class name="api.test.UserTestsViaProperties"/> --> 
     
     <!-- Store Model -->
-    <class name="api.test.StoreTestsViaProperties"/>
+   <!-- <class name="api.test.StoreTestsViaProperties"/> --> 
+    
+    <!-- Pet Model -->
+    <class name="api.test.PetTestsViaProperties"/>
     
     </classes>
   </test> <!-- Test -->
