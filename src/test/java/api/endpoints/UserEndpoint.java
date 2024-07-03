@@ -5,13 +5,15 @@ import static io.restassured.RestAssured.given;
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
+import java.util.ResourceBundle;
 
 import api.payload.UserPayload;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class UserEndpointViaProperties {
+public class UserEndpoint {
 	
+	// 1st way of loading routes.properties file and accessing the URL's.
 	public static Properties getUrl() {
 		
 		Properties configProp = new Properties();
@@ -25,6 +27,14 @@ public class UserEndpointViaProperties {
 		}
 		return configProp;
 	}
+
+	// 2nd way of loading routes.properties file and accessing the URL's.
+//	static ResourceBundle getUrl2() {
+//		
+//	ResourceBundle routes = ResourceBundle.getBundle("routes"); // Loads the routes.properties file.
+//	return routes;
+//	
+//	}
 	
 	public static Response createUser(UserPayload payload) { // Creating all these payload methods public and static so can be accessed by any class.
 		

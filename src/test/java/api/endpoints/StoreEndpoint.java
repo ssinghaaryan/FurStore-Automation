@@ -10,7 +10,7 @@ import api.payload.StorePayload;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class StoreEndpointViaProperties {
+public class StoreEndpoint {
 	
 	public static Properties getUrl() {
 		

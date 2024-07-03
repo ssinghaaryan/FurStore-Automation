@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="api.test.PetTestsViaProperties" class="method navigator-link" hash-for-method="addPetToStore">addPetToStore</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTestsDataDriven" class="method navigator-link" hash-for-method="deleteUser(user_3)">deleteUser(user_3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTestsDataDriven" class="method navigator-link" hash-for-method="deleteUser(user_2)">deleteUser(user_2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTestsDataDriven" class="method navigator-link" hash-for-method="deleteUser(user_1)">deleteUser(user_1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,14 +131,31 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">api.test.PetTestsViaProperties</span>
+              <span class="class-name">api.test.UserTestsDataDriven</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addPetToStore">
-                  </a> <!-- addPetToStore -->
-                  <span class="method-name">addPetToStore</span>
+                  <a name="deleteUser(user_3)">
+                  </a> <!-- deleteUser(user_3) -->
+                  <span class="method-name">deleteUser</span>
+                  <span class="parameters">(user_3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser(user_2)">
+                  </a> <!-- deleteUser(user_2) -->
+                  <span class="method-name">deleteUser</span>
+                  <span class="parameters">(user_2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser(user_1)">
+                  </a> <!-- deleteUser(user_1) -->
+                  <span class="method-name">deleteUser</span>
+                  <span class="parameters">(user_1)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +163,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/d9/lrhfyq2n10zbyhrbm5k60z480000gn/T/testng-eclipse--1637064023/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/d9/lrhfyq2n10zbyhrbm5k60z480000gn/T/testng-eclipse--1307594857/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,11 +172,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;api.test.PetTestsViaProperties&quot;&gt;
+      &lt;class name=&quot;api.test.UserTestsDataDriven&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;addPetToStore&quot;/&gt;
+          &lt;include name=&quot;deleteUser&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- api.test.PetTestsViaProperties --&gt;
+      &lt;/class&gt; &lt;!-- api.test.UserTestsDataDriven --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -189,16 +216,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addPetToStore')
-data.setCell(0, 2, 'api.test.PetTestsViaProperties')
-data.setCell(0, 3, 3268);
+data.setCell(0, 1, 'deleteUser')
+data.setCell(0, 2, 'api.test.UserTestsDataDriven')
+data.setCell(0, 3, 2777);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'deleteUser')
+data.setCell(1, 2, 'api.test.UserTestsDataDriven')
+data.setCell(1, 3, 1506);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deleteUser')
+data.setCell(2, 2, 'api.test.UserTestsDataDriven')
+data.setCell(2, 3, 1240);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -213,13 +248,17 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">api.test.PetTestsViaProperties</span>
+              <span class="ignored-class-name">api.test.UserTestsDataDriven</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">getPetById</span>
+                <span class="ignored-method-name">postUser</span>
+                <br/>
+                <span class="ignored-method-name">getUser</span>
+                <br/>
+                <span class="ignored-method-name">updateUser</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -231,14 +270,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">api.test.PetTestsViaProperties</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
+              <div class="chronological-class-name">api.test.UserTestsDataDriven</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">addPetToStore</span>
-                <span class="method-start">71 ms</span>
+                <span class="method-name">deleteUser(user_1)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUser(user_2)</span>
+                <span class="method-start">2781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUser(user_3)</span>
+                <span class="method-start">4289 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

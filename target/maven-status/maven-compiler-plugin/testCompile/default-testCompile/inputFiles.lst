@@ -1,10 +1,16 @@
-/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/src/test/java/api/endpoints/Routes.java
-/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/src/test/java/api/endpoints/UserEndpoint.java
-/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/src/test/java/api/endpoints/UserEndpointViaProperties.java
-/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/src/test/java/api/payload/UserPayload.java
-/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/src/test/java/api/test/DataDrivenTests.java
-/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/src/test/java/api/test/UserTests.java
-/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/src/test/java/api/test/UserTestsViaProperties.java
-/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/src/test/java/api/utilities/DataProviders.java
-/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/src/test/java/api/utilities/ExtentReportManager.java
-/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/src/test/java/api/utilities/XLUtility.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/endpoints/PetEndpoint.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/endpoints/Routes.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/endpoints/StoreEndpoint.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/endpoints/UserEndpoint.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/endpoints/UserEndpointViaRoutes.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/payload/PetPayload.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/payload/StorePayload.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/payload/UserPayload.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/test/PetTestsViaProperties.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/test/StoreTestsViaProperties.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/test/UserTestsDataDriven.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/test/UserTestsViaProperties.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/test/UserTestsViaRoutes.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/utilities/DataProviders.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/utilities/ExtentReportManager.java
+/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/src/test/java/api/utilities/XLUtility.java

@@ -27,6 +27,28 @@ public class DataProviders {
 		return apidata;
 		
 	}
+	
+	@DataProvider(name = "updatedData")
+	public String[][] getAllUpdatedData() throws IOException {
+	
+		String path = System.getProperty("user.dir") + "/testData/Userdata.xlsx";
+		XLUtility xl = new XLUtility(path);
+		
+		int rownum = xl.getRowCount("Sheet2");
+		int colcount = xl.getCellCount("Sheet2",2);
+		
+		String apidata[][] = new String[rownum][colcount];
+		
+		for(int i=1;i<=rownum;i++)
+		{
+			for(int j=0;j<colcount;j++)
+			{
+				apidata[i-1][j]=xl.getCellData("Sheet2", i, j);
+			}
+		}
+		return apidata;
+		
+	}
 
 	@DataProvider(name = "Usernames")
 	public String[] getUserNames() throws IOException{

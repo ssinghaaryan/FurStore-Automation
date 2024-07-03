@@ -10,7 +10,7 @@ import api.payload.PetPayload;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class PetEndpointViaProperties {
+public class PetEndpoint {
 	
 	public static Properties getUrl() {
 	

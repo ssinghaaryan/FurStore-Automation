@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.622" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="25.669" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/target/test-classes:/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/target/classes:/Users/aryan/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/aryan/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/aryan/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/aryan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/aryan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/aryan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/aryan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/aryan/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/aryan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/aryan/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/aryan/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/aryan/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/aryan/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/aryan/.m2/repository/org/json/json/20231013/json-20231013.jar:/Users/aryan/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/aryan/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/aryan/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/aryan/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/aryan/.m2/repository/com/github/scribejava/scribejava-apis/8.3.3/scribejava-apis-8.3.3.jar:/Users/aryan/.m2/repository/com/github/scribejava/scribejava-core/8.3.3/scribejava-core-8.3.3.jar:/Users/aryan/.m2/repository/com/github/scribejava/scribejava-java8/8.3.3/scribejava-java8-8.3.3.jar:/Users/aryan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.0/jackson-databind-2.14.0.jar:/Users/aryan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.0/jackson-annotations-2.14.0.jar:/Users/aryan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.0/jackson-core-2.14.0.jar:/Users/aryan/.m2/repository/io/rest-assured/json-schema-validator/5.4.0/json-schema-validator-5.4.0.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/aryan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/aryan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/aryan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/aryan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/aryan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/aryan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/aryan/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/aryan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/aryan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/aryan/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/aryan/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/aryan/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/aryan/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/aryan/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/aryan/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/aryan/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/aryan/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/aryan/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/aryan/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/aryan/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/aryan/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/aryan/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/aryan/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/aryan/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/aryan/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/aryan/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/aryan/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/aryan/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/aryan/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/aryan/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/aryan/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:"/>
+    <property name="java.class.path" value="/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/target/test-classes:/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/target/classes:/Users/aryan/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/aryan/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/aryan/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/aryan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/aryan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/aryan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/aryan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/aryan/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/aryan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/aryan/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/aryan/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/aryan/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/aryan/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/aryan/.m2/repository/org/json/json/20231013/json-20231013.jar:/Users/aryan/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/aryan/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/aryan/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/aryan/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/aryan/.m2/repository/com/github/scribejava/scribejava-apis/8.3.3/scribejava-apis-8.3.3.jar:/Users/aryan/.m2/repository/com/github/scribejava/scribejava-core/8.3.3/scribejava-core-8.3.3.jar:/Users/aryan/.m2/repository/com/github/scribejava/scribejava-java8/8.3.3/scribejava-java8-8.3.3.jar:/Users/aryan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.0/jackson-databind-2.14.0.jar:/Users/aryan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.0/jackson-annotations-2.14.0.jar:/Users/aryan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.0/jackson-core-2.14.0.jar:/Users/aryan/.m2/repository/io/rest-assured/json-schema-validator/5.4.0/json-schema-validator-5.4.0.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/aryan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/aryan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/aryan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/aryan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/aryan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/aryan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/aryan/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/aryan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/aryan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/aryan/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/aryan/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/aryan/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/aryan/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/aryan/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/aryan/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/aryan/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/aryan/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/aryan/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/aryan/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/aryan/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/aryan/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/aryan/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/aryan/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/aryan/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/aryan/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/aryan/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/aryan/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/aryan/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/aryan/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/aryan/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/aryan/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://adoptium.net/"/>
@@ -13,10 +13,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.11.v20240426-1830/jre/lib"/>
-    <property name="sun.java.command" value="/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/target/surefire/surefirebooter-20240609204757689_3.jar /Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/target/surefire 2024-06-09T20-47-57_550-jvmRun1 surefire-20240609204757689_1tmp surefire_0-20240609204757689_2tmp"/>
+    <property name="sun.java.command" value="/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/target/surefire/surefirebooter-20240704002631203_3.jar /Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/target/surefire 2024-07-04T00-26-31_087-jvmRun1 surefire-20240704002631203_1tmp surefire_0-20240704002631203_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/target/test-classes:/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/target/classes:/Users/aryan/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/aryan/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/aryan/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/aryan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/aryan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/aryan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/aryan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/aryan/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/aryan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/aryan/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/aryan/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/aryan/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/aryan/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/aryan/.m2/repository/org/json/json/20231013/json-20231013.jar:/Users/aryan/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/aryan/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/aryan/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/aryan/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/aryan/.m2/repository/com/github/scribejava/scribejava-apis/8.3.3/scribejava-apis-8.3.3.jar:/Users/aryan/.m2/repository/com/github/scribejava/scribejava-core/8.3.3/scribejava-core-8.3.3.jar:/Users/aryan/.m2/repository/com/github/scribejava/scribejava-java8/8.3.3/scribejava-java8-8.3.3.jar:/Users/aryan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.0/jackson-databind-2.14.0.jar:/Users/aryan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.0/jackson-annotations-2.14.0.jar:/Users/aryan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.0/jackson-core-2.14.0.jar:/Users/aryan/.m2/repository/io/rest-assured/json-schema-validator/5.4.0/json-schema-validator-5.4.0.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/aryan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/aryan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/aryan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/aryan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/aryan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/aryan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/aryan/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/aryan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/aryan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/aryan/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/aryan/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/aryan/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/aryan/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/aryan/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/aryan/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/aryan/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/aryan/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/aryan/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/aryan/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/aryan/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/aryan/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/aryan/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/aryan/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/aryan/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/aryan/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/aryan/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/aryan/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/aryan/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/aryan/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/aryan/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/aryan/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/target/test-classes:/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/target/classes:/Users/aryan/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/aryan/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/aryan/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/aryan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/aryan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/aryan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/aryan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/aryan/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/aryan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/aryan/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/aryan/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/aryan/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/aryan/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/aryan/.m2/repository/org/json/json/20231013/json-20231013.jar:/Users/aryan/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/aryan/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/aryan/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/aryan/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/aryan/.m2/repository/com/github/scribejava/scribejava-apis/8.3.3/scribejava-apis-8.3.3.jar:/Users/aryan/.m2/repository/com/github/scribejava/scribejava-core/8.3.3/scribejava-core-8.3.3.jar:/Users/aryan/.m2/repository/com/github/scribejava/scribejava-java8/8.3.3/scribejava-java8-8.3.3.jar:/Users/aryan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.0/jackson-databind-2.14.0.jar:/Users/aryan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.0/jackson-annotations-2.14.0.jar:/Users/aryan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.0/jackson-core-2.14.0.jar:/Users/aryan/.m2/repository/io/rest-assured/json-schema-validator/5.4.0/json-schema-validator-5.4.0.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/aryan/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/aryan/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/aryan/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/aryan/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/aryan/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/aryan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/aryan/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/aryan/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/aryan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/aryan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/aryan/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/aryan/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/aryan/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/aryan/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/aryan/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/aryan/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/aryan/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/aryan/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/aryan/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/aryan/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/aryan/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/aryan/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/aryan/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/aryan/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/aryan/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/aryan/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/aryan/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/aryan/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/aryan/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/aryan/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/aryan/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/aryan/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/aryan/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/aryan"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.home" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.11.v20240426-1830/jre"/>
     <property name="file.separator" value="/"/>
     <property name="style.color" value="always"/>
-    <property name="basedir" value="/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation"/>
+    <property name="basedir" value="/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation/target/surefire/surefirebooter-20240609204757689_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation/target/surefire/surefirebooter-20240704002631203_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.11+9"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/d9/lrhfyq2n10zbyhrbm5k60z480000gn/T/"/>
     <property name="java.version" value="17.0.11"/>
-    <property name="user.dir" value="/Users/aryan/Desktop/Learnings/Software Testing/API/AutomationFramework/FurStoreAutomation"/>
+    <property name="user.dir" value="/Users/aryan/Desktop/Learnings/Software Testing/API Testing/AutomationFramework/FurStoreAutomation"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -57,16 +57,150 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testPostUser[1001, testuser1, Bobby, Sharma, a@gmail.com, pass1, 123456789](1)" classname="api.test.DataDrivenTests" time="3.57">
+  <testcase name="postUser[1001, user_1, Bobby, Sharma, a@gmail.com, pass1, 123456789](1)" classname="api.test.UserTestsDataDriven" time="2.928">
+    <system-out><![CDATA[-------- Creating User ---------
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1001"
+}
+]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
 ]]></system-err>
   </testcase>
-  <testcase name="testPostUser[1002, testuser2, Akash, Gupta, b@gmail.com, pass2, 123456789](2)" classname="api.test.DataDrivenTests" time="1.292"/>
-  <testcase name="testPostUser[1003, testuser3, Honey, Agarwal, c@gmail.com, pass3, 123456789](3)" classname="api.test.DataDrivenTests" time="1.332"/>
-  <testcase name="testDeleteUserByUsername[testuser1](1)" classname="api.test.DataDrivenTests" time="1.29"/>
-  <testcase name="testDeleteUserByUsername[testuser2](2)" classname="api.test.DataDrivenTests" time="1.276"/>
-  <testcase name="testDeleteUserByUsername[testuser3](3)" classname="api.test.DataDrivenTests" time="1.283"/>
+  <testcase name="postUser[1002, user_2, Akash, Gupta, b@gmail.com, pass2, 123456789](2)" classname="api.test.UserTestsDataDriven" time="1.383">
+    <system-out><![CDATA[-------- Creating User ---------
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1002"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="postUser[1003, user_3, Honey, Agarwal, c@gmail.com, pass3, 123456789](3)" classname="api.test.UserTestsDataDriven" time="1.475">
+    <system-out><![CDATA[-------- Creating User ---------
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1003"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUser[user_1](1)" classname="api.test.UserTestsDataDriven" time="1.435">
+    <system-out><![CDATA[-------- Fethcing User Info --------
+{
+    "id": 1001,
+    "username": "user_1",
+    "email": "a@gmail.com",
+    "password": "pass1",
+    "phone": "123456789",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUser[user_2](2)" classname="api.test.UserTestsDataDriven" time="1.384">
+    <system-out><![CDATA[-------- Fethcing User Info --------
+{
+    "id": 1002,
+    "username": "user_2",
+    "email": "b@gmail.com",
+    "password": "pass2",
+    "phone": "123456789",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUser[user_3](3)" classname="api.test.UserTestsDataDriven" time="1.378">
+    <system-out><![CDATA[-------- Fethcing User Info --------
+{
+    "id": 1003,
+    "username": "user_3",
+    "email": "c@gmail.com",
+    "password": "pass3",
+    "phone": "123456789",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUser[1001, user_1, BobbyUpdated, Sharma, updated_a@gmail.com, pass1, 123456789](1)" classname="api.test.UserTestsDataDriven" time="2.821">
+    <system-out><![CDATA[-------- Updating User --------
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1001"
+}
+{
+    "id": 1001,
+    "username": "user_1",
+    "email": "updated_a@gmail.com",
+    "password": "pass1",
+    "phone": "123456789",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUser[1002, user_2, AkashUpdated, Gupta, updated_b@gmail.com, pass2, 123456789](2)" classname="api.test.UserTestsDataDriven" time="2.781">
+    <system-out><![CDATA[-------- Updating User --------
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1002"
+}
+{
+    "id": 1002,
+    "username": "user_2",
+    "email": "updated_b@gmail.com",
+    "password": "pass2",
+    "phone": "123456789",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUser[1003, user_3, HoneyUpdated, Agarwal, updated_c@gmail.com, pass3, 123456789](3)" classname="api.test.UserTestsDataDriven" time="2.854">
+    <system-out><![CDATA[-------- Updating User --------
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1003"
+}
+{
+    "id": 1003,
+    "username": "user_3",
+    "email": "updated_c@gmail.com",
+    "password": "pass3",
+    "phone": "123456789",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[user_1](1)" classname="api.test.UserTestsDataDriven" time="1.62">
+    <system-out><![CDATA[-------- Deleting User --------
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "user_1"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[user_2](2)" classname="api.test.UserTestsDataDriven" time="1.392">
+    <system-out><![CDATA[-------- Deleting User --------
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "user_2"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[user_3](3)" classname="api.test.UserTestsDataDriven" time="1.38">
+    <system-out><![CDATA[-------- Deleting User --------
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "user_3"
+}
+]]></system-out>
+  </testcase>
 </testsuite>

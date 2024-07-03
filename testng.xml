@@ -11,15 +11,15 @@
     <classes>
 	
 	<!-- User Model -->
-     <!-- <class name="api.test.DataDrivenTests"/> -->
+      <class name="api.test.UserTestsDataDriven"/>
      <!-- <class name="api.test.UserTests"/> --> 
-    <!-- <class name="api.test.UserTestsViaProperties"/> --> 
+    <!-- <class name="api.test.UserTestsViaProperties"/> -->
     
     <!-- Store Model -->
    <!-- <class name="api.test.StoreTestsViaProperties"/> --> 
     
     <!-- Pet Model -->
-    <class name="api.test.PetTestsViaProperties"/>
+    <!-- <class name="api.test.PetTestsViaProperties"/> -->
     
     </classes>
   </test> <!-- Test -->

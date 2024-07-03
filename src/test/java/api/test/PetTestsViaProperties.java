@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
 
-import api.endpoints.PetEndpointViaProperties;
+import api.endpoints.PetEndpoint;
 import api.payload.PetPayload;
 import io.restassured.response.Response;
 
@@ -30,7 +30,7 @@ public class PetTestsViaProperties {
 	@Test(priority = 1)
 	void addPetToStore() {
 		
-		Response res = PetEndpointViaProperties.addPet(payload);
+		Response res = PetEndpoint.addPet(payload);
 		res.then().log().all();
 		
 		Assert.assertEquals(res.statusCode(), 200);
@@ -40,7 +40,7 @@ public class PetTestsViaProperties {
 	@Test(priority = 2) 
 	void getPetById() {
 		
-		Response res = PetEndpointViaProperties.getPet(this.payload.getPetId());
+		Response res = PetEndpoint.getPet(this.payload.getPetId());
 		res.then().log().all();
 		
 		Assert.assertEquals(res.statusCode(), 200);

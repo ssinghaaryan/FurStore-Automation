@@ -49,7 +49,6 @@ public class ExtentReportManager implements ITestListener {
 		test.assignCategory(result.getMethod().getGroups());
 		test.createNode(result.getName());
 		test.log(Status.PASS, "Test Passed!");
-		
 	}
 	
 	@Override

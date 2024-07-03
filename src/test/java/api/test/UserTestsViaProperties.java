@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
 
-import api.endpoints.UserEndpointViaProperties;
+import api.endpoints.UserEndpoint;
 import api.payload.UserPayload;
 import io.restassured.response.Response;
 
@@ -22,8 +22,11 @@ public class UserTestsViaProperties {
 		payload = new UserPayload();
 		
 		payload.setId(faker.idNumber().hashCode());
-		payload.setUsername(faker.name().username());
+//		payload.setId(2314521);
+//		payload.setUsername(faker.name().username());
+		payload.setUsername("sampleusername");
 		payload.setFirstname(faker.name().firstName());
+//		payload.setFirstname("Sample Name");
 		payload.setLastname(faker.name().lastName());
 		payload.setEmail(faker.internet().safeEmailAddress());
 		payload.setPassword(faker.internet().password(4, 8));
@@ -32,10 +35,10 @@ public class UserTestsViaProperties {
 	}
 	
 	@Test(priority = 1) 
-	void testPutUser() {
+	void testPostUser() {
 		
-		Response res = UserEndpointViaProperties.createUser(payload);
-		res.then().log().all();
+		Response res = UserEndpoint.createUser(payload);
+		res.then().log().body();
 		
 		Assert.assertEquals(res.statusCode(), 200);
 		
@@ -44,8 +47,8 @@ public class UserTestsViaProperties {
 	@Test(priority = 2)
 	void testGetUser() {
 		
-		Response res = UserEndpointViaProperties.readUser(this.payload.getUsername());
-		res.then().log().all();
+		Response res = UserEndpoint.readUser(this.payload.getUsername());
+		res.then().log().body();
 		
 		Assert.assertEquals(res.getStatusCode(), 200);
 		
@@ -59,13 +62,13 @@ public class UserTestsViaProperties {
 		payload.setLastname(faker.name().lastName());
 		payload.setEmail(faker.internet().safeEmailAddress());
 		
-		Response res = UserEndpointViaProperties.updateUser(payload, this.payload.getUsername());
+		Response res = UserEndpoint.updateUser(payload, this.payload.getUsername());
 		res.then().log().body();
 		
 		Assert.assertEquals(res.statusCode(), 200);
 		
 		// Validating updated details
-		Response resPostUpdation = UserEndpointViaProperties.readUser(this.payload.getUsername());
+		Response resPostUpdation = UserEndpoint.readUser(this.payload.getUsername());
 		
 		Assert.assertEquals(resPostUpdation.statusCode(), 200);
 		
@@ -74,7 +77,8 @@ public class UserTestsViaProperties {
 	@Test(priority = 4)
 	void testDeleteUser() {
 		
-		Response res = UserEndpointViaProperties.deleteUser(this.payload.getUsername());
+		Response res = UserEndpoint.deleteUser(this.payload.getUsername());
+		res.then().log().body();
 		
 		Assert.assertEquals(res.statusCode(), 200);
 		

@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
 
-import api.endpoints.StoreEndpointViaProperties;
+import api.endpoints.StoreEndpoint;
 import api.payload.StorePayload;
 import io.restassured.response.Response;
 
@@ -32,7 +32,7 @@ public class StoreTestsViaProperties {
 	@Test(priority = 1)
 	void getStoreInventory() {
 		
-		Response res = StoreEndpointViaProperties.getStore();
+		Response res = StoreEndpoint.getStore();
 		res.then().log().all();
 		
 		Assert.assertEquals(res.statusCode(), 200);
@@ -42,7 +42,7 @@ public class StoreTestsViaProperties {
 	@Test(priority = 2) 
 	void placeOrder() {
 		
-		Response res = StoreEndpointViaProperties.placeOrder(payload);
+		Response res = StoreEndpoint.placeOrder(payload);
 		res.then().log().all();
 		
 		Assert.assertEquals(res.statusCode(), 200);
@@ -52,7 +52,7 @@ public class StoreTestsViaProperties {
 	@Test(priority = 3)
 	void getOrderById() {
 		
-		Response res = StoreEndpointViaProperties.getOrderById(this.payload.getId());
+		Response res = StoreEndpoint.getOrderById(this.payload.getId());
 		res.then().log().all();
 		
 		Assert.assertEquals(res.statusCode(), 200);
@@ -62,7 +62,7 @@ public class StoreTestsViaProperties {
 	@Test(priority = 4)
 	void deleteOrderById() {
 		
-		Response res = StoreEndpointViaProperties.deleteOrderById(this.payload.getId());
+		Response res = StoreEndpoint.deleteOrderById(this.payload.getId());
 		res.then().log().all();
 		
 		Assert.assertEquals(res.statusCode(), 200);
