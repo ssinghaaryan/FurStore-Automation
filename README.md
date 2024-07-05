@@ -73,7 +73,7 @@ cd your-repo-name
 
 1. Update the pom.xml file with the necessary dependencies for REST Assured, TestNG, and Extent Reports, and more.
 
-   Dependencies you would need:
+Dependencies you would need:
 
 a.  [rest-assured](https://mvnrepository.com/artifact/io.rest-assured/rest-assured)  
 b. [json-path](https://mvnrepository.com/artifact/io.rest-assured/json-path)  
