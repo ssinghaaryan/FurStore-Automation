@@ -1,9 +1,106 @@
-# FurStore Automation - REST Assured API Automation Framework
+# FurStore Automation - RESTAssured API Testing Framework
 
-![REST Assured](https://img.shields.io/badge/RESTAssured-FFD700?style=for-the-badge&logo=restassured&logoColor=white)
+![REST Assured](https://img.shields.io/badge/RESTAssured-43B02A?style=for-the-badge&logo=restassured&logoColor=white)
 ![TestNG](https://img.shields.io/badge/TestNG-FFD700?style=for-the-badge&logo=testng&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Extent Reports](https://img.shields.io/badge/Extent%20Reports-4B8BBE?style=for-the-badge&logo=extent-reports&logoColor=white)
+
+
+
+
+![image](https://github.com/ssinghaaryan/FurStore-Automation/assets/86829777/bb2116a5-d958-452d-a8bd-41bc2529db4e)
+
+
+
+
+## Introduction
+
+This project is a comprehensive API testing framework built using REST Assured, Java, TestNG, Maven, Jenkins, Git, and Extent Reports. It is designed to simplify API testing and reporting, ensuring efficient and reliable automated testing processes.
+
+
+## Features
+
+**REST Assured:** For simplified and efficient API testing.
+**Java:** The core programming language for the framework.
+**TestNG:** To manage test cases and generate reports.
+**Maven:** For project build management and dependency management.
+**Jenkins:** For continuous integration and continuous delivery (CI/CD).
+**Git:** For version control.
+**Extent Reports:** For generating detailed and visually appealing test reports.
+
+
+
+## Prerequisites
+
+
+Java Development Kit (JDK) 1.8 or higher
+An IDE of your choice (Eclipse in my case)
+Maven 3.9 or higher
+Git
+Jenkins
+
+
+## Setup
+
+
+1. Clone the repository:
+   
+```
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+2. Navigate to the project directory:
+
+```
+cd your-repo-name
+```
+
+## Configuration
+
+
+1. Update the pom.xml file with the necessary dependencies for REST Assured, TestNG, and Extent Reports, and more.
+
+Dependencies you would need:
+
+1. [rest-assured](https://mvnrepository.com/artifact/io.rest-assured/rest-assured)
+2. [json-path](https://mvnrepository.com/artifact/io.rest-assured/json-path)
+3. [json](https://mvnrepository.com/artifact/org.json/json)
+4. [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson)
+5. [testng](https://mvnrepository.com/artifact/org.testng/testng)
+6. [scribejava-apis](https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis)
+7. [Json-schema-validator](https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator)
+8. [Extent-Reports](https://mvnrepository.com/artifact/com.aventstack/extentreports)
+9. [Apache POI](https://mvnrepository.com/artifact/org.apache.poi/poi)
+10. [Lombok](https://mvnrepository.com/artifact/org.projectlombok/lombok)
+
+2. Configure the TestNG XML file (testng.xml) to include your test classes and define the suite settings (currently Data Driven UserTest is included)
+
+3. Set up Jenkins:
+
+Create a new Jenkins job.
+Configure the job to pull from your Git repository.
+Add build steps to run your Maven commands.
+
+## Running Tests
+
+To execute the test suite, run the following Maven command:
+
+```
+mvn test
+```
+
+## Reporting
+After executing the tests, Extent Reports will generate a detailed report. You can find the report in the /reports directory.
+
+
+## Continuous Integration
+To set up continuous integration, configure your Jenkins job to run the tests automatically on every commit. This ensures that your API is continuously tested and any issues are detected early.
+
+
+
+
+
+
