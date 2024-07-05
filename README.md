@@ -18,7 +18,7 @@
 
 ## Introduction
 
-This project is a comprehensive API testing framework built using REST Assured, Java, TestNG, Maven, Jenkins, Git, and Extent Reports. It is designed to simplify API testing and reporting, ensuring efficient and reliable automated testing processes.
+This project is a comprehensive API testing framework designed to test and automate the API of the [Swagger Petstore](https://petstore.swagger.io/#/) for the User, Pet, and Store models. Built using REST Assured, Java, TestNG, Maven, Jenkins, Git, and Extent Reports, it is designed to simplify API testing and reporting, ensuring efficient and reliable automated testing processes.
 
 
 ## Features
