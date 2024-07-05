@@ -23,12 +23,18 @@ This project is a comprehensive API testing framework built using REST Assured, 
 
 ## Features
 
-**REST Assured:** For simplified and efficient API testing.  
+**REST Assured:** For simplified and efficient API testing.
+
 **Java:** The core programming language for the framework.  
+
 **TestNG:** To manage test cases and generate reports.  
+
 **Maven:** For project build management and dependency management.  
+
 **Jenkins:** For continuous integration and continuous delivery (CI/CD).  
+
 **Git:** For version control.  
+
 **Extent Reports:** For generating detailed and visually appealing test reports.  
 
 
@@ -37,9 +43,13 @@ This project is a comprehensive API testing framework built using REST Assured, 
 
 
 Java Development Kit (JDK) 1.8 or higher  
+
 An IDE of your choice (Eclipse in my case)  
+
 Maven 3.9 or higher  
+
 Git  
+
 Jenkins  
 
 
@@ -63,7 +73,7 @@ cd your-repo-name
 
 1. Update the pom.xml file with the necessary dependencies for REST Assured, TestNG, and Extent Reports, and more.
 
-Dependencies you would need:
+   Dependencies you would need:
 
 1. [rest-assured](https://mvnrepository.com/artifact/io.rest-assured/rest-assured)
 2. [json-path](https://mvnrepository.com/artifact/io.rest-assured/json-path)
@@ -75,6 +85,8 @@ Dependencies you would need:
 8. [Extent-Reports](https://mvnrepository.com/artifact/com.aventstack/extentreports)
 9. [Apache POI](https://mvnrepository.com/artifact/org.apache.poi/poi)
 10. [Lombok](https://mvnrepository.com/artifact/org.projectlombok/lombok)
+
+
 
 2. Configure the TestNG XML file (testng.xml) to include your test classes and define the suite settings (currently Data Driven UserTest is included)
 
