@@ -112,6 +112,51 @@ After executing the tests, Extent Reports will generate a detailed report. You c
 To set up continuous integration, configure your Jenkins job to run the tests automatically on every commit. This ensures that your API is continuously tested and any issues are detected early.
 
 
+## Project Structure
+
+```
+├── README.md
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   └── resources
+│   └── test
+│       ├── java
+│       │   └── api
+│       │       ├── endpoints
+│       │       │   ├── PetEndpoint.java
+│       │       │   ├── Routes.java
+│       │       │   ├── StoreEndpoint.java
+│       │       │   ├── UserEndpoint.java
+│       │       │   └── UserEndpointViaRoutes.java
+│       │       ├── payload
+│       │       │   ├── PetPayload.java
+│       │       │   ├── StorePayload.java
+│       │       │   └── UserPayload.java
+│       │       ├── test
+│       │       │   ├── PetTestsViaProperties.java
+│       │       │   ├── StoreTestsViaProperties.java
+│       │       │   ├── UserTestsDataDriven.java
+│       │       │   ├── UserTestsViaProperties.java
+│       │       │   └── UserTestsViaRoutes.java
+│       │       └── utilities
+│       │           ├── DataProviders.java
+│       │           ├── ExtentReportManager.java
+│       │           └── XLUtility.java
+│       └── resources
+│           └── routes.properties
+├── reports
+│   ├── Test-Report - 2024.07.04.12.16.48.html
+│   └── Test-Report - 2024.07.04.13.04.56.html
+├── testData
+│   ├── TestCases.xlsx
+│   ├── Userdata.xlsx
+│   ├── Storedata.xlsx
+│   ├── Petdata.xlsx
+└── testng.xml
+```
+
 
 
 
