@@ -105,7 +105,7 @@ mvn test
 ```
 
 ## Reporting
-After executing the tests, Extent Reports will generate a detailed report. You can find the report in the /reports directory.
+After executing the tests, Extent Reports will generate a detailed report. You can find the report in the ```/reports``` directory.
 
 
 ## Continuous Integration
