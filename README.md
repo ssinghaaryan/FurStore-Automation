@@ -23,24 +23,24 @@ This project is a comprehensive API testing framework built using REST Assured, 
 
 ## Features
 
-**REST Assured:** For simplified and efficient API testing.
-**Java:** The core programming language for the framework.
-**TestNG:** To manage test cases and generate reports.
-**Maven:** For project build management and dependency management.
-**Jenkins:** For continuous integration and continuous delivery (CI/CD).
-**Git:** For version control.
-**Extent Reports:** For generating detailed and visually appealing test reports.
+**REST Assured:** For simplified and efficient API testing.  
+**Java:** The core programming language for the framework.  
+**TestNG:** To manage test cases and generate reports.  
+**Maven:** For project build management and dependency management.  
+**Jenkins:** For continuous integration and continuous delivery (CI/CD).  
+**Git:** For version control.  
+**Extent Reports:** For generating detailed and visually appealing test reports.  
 
 
 
 ## Prerequisites
 
 
-Java Development Kit (JDK) 1.8 or higher
-An IDE of your choice (Eclipse in my case)
-Maven 3.9 or higher
-Git
-Jenkins
+Java Development Kit (JDK) 1.8 or higher  
+An IDE of your choice (Eclipse in my case)  
+Maven 3.9 or higher  
+Git  
+Jenkins  
 
 
 ## Setup
