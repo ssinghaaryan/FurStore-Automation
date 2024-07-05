@@ -71,7 +71,7 @@ cd your-repo-name
 ## Configuration
 
 
-1. Update the pom.xml file with the necessary dependencies for REST Assured, TestNG, and Extent Reports, and more.
+1. Update the [pom.xml](/pom.xml) file with the necessary dependencies for REST Assured, TestNG, and Extent Reports, and more.
 
 Dependencies you would need:
 
@@ -88,7 +88,7 @@ j. [Lombok](https://mvnrepository.com/artifact/org.projectlombok/lombok)
 
 
 
-2. Configure the TestNG XML file (testng.xml) to include your test classes and define the suite settings (currently Data Driven UserTest is included)
+2. Configure the TestNG XML file [testng.xml](/testng.xml) to include your test classes and define the suite settings (currently Data Driven UserTest is included)
 
 3. Set up Jenkins:
 
