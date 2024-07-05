@@ -75,16 +75,16 @@ cd your-repo-name
 
    Dependencies you would need:
 
-a.  [rest-assured](https://mvnrepository.com/artifact/io.rest-assured/rest-assured)
-b. [json-path](https://mvnrepository.com/artifact/io.rest-assured/json-path)
-c. [json](https://mvnrepository.com/artifact/org.json/json)
-d. [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson)
-e. [testng](https://mvnrepository.com/artifact/org.testng/testng)
-f. [scribejava-apis](https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis)
-g. [Json-schema-validator](https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator)
-h. [Extent-Reports](https://mvnrepository.com/artifact/com.aventstack/extentreports)
-i. [Apache POI](https://mvnrepository.com/artifact/org.apache.poi/poi)
-j. [Lombok](https://mvnrepository.com/artifact/org.projectlombok/lombok)
+a.  [rest-assured](https://mvnrepository.com/artifact/io.rest-assured/rest-assured)  
+b. [json-path](https://mvnrepository.com/artifact/io.rest-assured/json-path)  
+c. [json](https://mvnrepository.com/artifact/org.json/json)  
+d. [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson)  
+e. [testng](https://mvnrepository.com/artifact/org.testng/testng)  
+f. [scribejava-apis](https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis)  
+g. [Json-schema-validator](https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator)  
+h. [Extent-Reports](https://mvnrepository.com/artifact/com.aventstack/extentreports)  
+i. [Apache POI](https://mvnrepository.com/artifact/org.apache.poi/poi)  
+j. [Lombok](https://mvnrepository.com/artifact/org.projectlombok/lombok)  
 
 
 
