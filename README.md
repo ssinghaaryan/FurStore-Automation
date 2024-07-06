@@ -73,19 +73,19 @@ cd your-repo-name
 
 1. Update the [pom.xml](/pom.xml) file with the necessary dependencies for REST Assured, TestNG, and Extent Reports, and more.
 
-Dependencies you would need:
+     Dependencies you would need:
 
-a.  [rest-assured](https://mvnrepository.com/artifact/io.rest-assured/rest-assured)  
-b. [json-path](https://mvnrepository.com/artifact/io.rest-assured/json-path)  
-c. [json](https://mvnrepository.com/artifact/org.json/json)  
-d. [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson)  
-e. [testng](https://mvnrepository.com/artifact/org.testng/testng)  
-f. [scribejava-apis](https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis)  
-g. [Json-schema-validator](https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator)  
-h. [Extent-Reports](https://mvnrepository.com/artifact/com.aventstack/extentreports)  
-i. [Apache POI](https://mvnrepository.com/artifact/org.apache.poi/poi)  
-j. [Lombok](https://mvnrepository.com/artifact/org.projectlombok/lombok)  
-k. [java-faker](https://github.com/DiUS/java-faker)(in case of generating random fake data)
+      * [rest-assured](https://mvnrepository.com/artifact/io.rest-assured/rest-assured)
+      * [json-path](https://mvnrepository.com/artifact/io.rest-assured/json-path)  
+      * [json](https://mvnrepository.com/artifact/org.json/json)  
+      * [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson)  
+      * [testng](https://mvnrepository.com/artifact/org.testng/testng)  
+      * [scribejava-apis](https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis)  
+      * [Json-schema-validator](https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator)  
+      * [Extent-Reports](https://mvnrepository.com/artifact/com.aventstack/extentreports)  
+      * [Apache POI](https://mvnrepository.com/artifact/org.apache.poi/poi)  
+      * [Lombok](https://mvnrepository.com/artifact/org.projectlombok/lombok)  
+      * [java-faker](https://github.com/DiUS/java-faker)(in case of generating random fake data)
 
 
 
