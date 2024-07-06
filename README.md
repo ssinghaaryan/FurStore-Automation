@@ -1,4 +1,4 @@
-# FurStore Automation - RESTAssured API Testing Framework
+# FurStore RESTAssured API Automation Framework
 
 ![REST Assured](https://img.shields.io/badge/RESTAssured-43B02A?style=for-the-badge&logo=restassured&logoColor=black)
 ![TestNG](https://img.shields.io/badge/TestNG-FFD700?style=for-the-badge&logo=testng&logoColor=white)
@@ -85,6 +85,7 @@ g. [Json-schema-validator](https://mvnrepository.com/artifact/io.rest-assured/js
 h. [Extent-Reports](https://mvnrepository.com/artifact/com.aventstack/extentreports)  
 i. [Apache POI](https://mvnrepository.com/artifact/org.apache.poi/poi)  
 j. [Lombok](https://mvnrepository.com/artifact/org.projectlombok/lombok)  
+k. [java-faker](https://github.com/DiUS/java-faker)(in case of generating random fake data)
 
 
 
@@ -98,7 +99,7 @@ Add build steps to run your Maven commands.
 
 ## Running Tests
 
-To execute the test suite, run the following Maven command:
+To execute the test suite via Terminal/Cmd, run the following Maven command:
 
 ```
 mvn test
