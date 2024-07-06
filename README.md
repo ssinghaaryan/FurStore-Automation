@@ -23,7 +23,7 @@ This project is a comprehensive API testing framework designed to test and autom
 
 ## Features
 
-**REST Assured:** For simplified and efficient API testing.
+> **REST Assured:** For simplified and efficient API testing.
 
 **Java:** The core programming language for the framework.  
 
