@@ -25,17 +25,17 @@ This project is a comprehensive API testing framework designed to test and autom
 
 > **REST Assured:** For simplified and efficient API testing.
 
-**Java:** The core programming language for the framework.  
+> **Java:** The core programming language for the framework.  
 
-**TestNG:** To manage test cases and generate reports.  
+> **TestNG:** To manage test cases and generate reports.  
 
-**Maven:** For project build management and dependency management.  
+> **Maven:** For project build management and dependency management.  
 
-**Jenkins:** For continuous integration and continuous delivery (CI/CD).  
+> **Jenkins:** For continuous integration and continuous delivery (CI/CD).  
 
-**Git:** For version control.  
+> **Git:** For version control.  
 
-**Extent Reports:** For generating detailed and visually appealing test reports.  
+> **Extent Reports:** For generating detailed and visually appealing test reports.  
 
 
 
