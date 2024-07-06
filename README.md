@@ -42,15 +42,15 @@ This project is a comprehensive API testing framework designed to test and autom
 ## Prerequisites
 
 
-Java Development Kit (JDK) 1.8 or higher  
+* Java Development Kit (JDK) 1.8 or higher  
 
-An IDE of your choice (Eclipse in my case)  
+* An IDE of your choice (Eclipse in my case)  
 
-Maven 3.9 or higher  
+* Maven 3.9 or higher  
 
-Git  
+* Git  
 
-Jenkins  
+* Jenkins  
 
 
 ## Setup
@@ -93,9 +93,9 @@ cd your-repo-name
 
 3. Set up Jenkins:
 
-Create a new Jenkins job.
-Configure the job to pull from your Git repository.
-Add build steps to run your Maven commands.
+     Create a new Jenkins job.
+     Configure the job to pull from your Git repository.
+     Add build steps to run your Maven commands.
 
 ## Running Tests
 
